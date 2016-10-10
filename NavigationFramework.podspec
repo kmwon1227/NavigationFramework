@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NavigationFramework"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "A short description of NavigationFramework."
 
   # This description is used to generate tags and improve search results.
@@ -134,11 +134,11 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "Moya', '8.0.0-beta.2"
-  s.dependency "Moya/RxSwift"
-  s.dependency "RxSwift', '3.0.0-beta.1"
-  s.dependency "RxCocoa', '3.0.0-beta.1"
-  s.dependency "XLPagerTabStrip"
+   s.dependency "Moya", "8.0.0-beta.2"
+   s.dependency "Moya/RxSwift"
+   s.dependency "RxSwift", "3.0.0-beta.1"
+   s.dependency "RxCocoa", "3.0.0-beta.1"
+   s.dependency "XLPagerTabStrip"
   # s.dependency "SlideMenuControllerSwift"
 
 end
