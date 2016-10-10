@@ -7,21 +7,21 @@
 //
 
 import Foundation
-import SlideMenuControllerSwift
+//import SlideMenuControllerSwift
 
 public class NavigationManager {
     public static let sharedInstance = NavigationManager()
-    var rootContainerViewController: SlideMenuController?
+//    var rootContainerViewController: SlideMenuController?
     
     init() {
         
     }
     
     public func setupDefaultContainer() {
-        self.rootContainerViewController = SlideMenuController(mainViewController: JetsoMainViewController(), leftMenuViewController: LeftMenuViewController())
+//        self.rootContainerViewController = SlideMenuController(mainViewController: JetsoMainViewController(), leftMenuViewController: LeftMenuViewController())
     }
 
-    public func getRootContainerViewController() -> UIViewController? {
-        return self.rootContainerViewController
-    }
+//    public func getRootContainerViewController() -> UIViewController? {
+//        return self.rootContainerViewController
+//    }
 }
