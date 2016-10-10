@@ -134,7 +134,11 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "RxSwift"
-  s.dependency "SlideMenuControllerSwift"
+  s.dependency "Moya', '8.0.0-beta.2"
+  s.dependency "Moya/RxSwift"
+  s.dependency "RxSwift', '3.0.0-beta.1"
+  s.dependency "RxCocoa', '3.0.0-beta.1"
+  s.dependency "XLPagerTabStrip"
+  # s.dependency "SlideMenuControllerSwift"
 
 end
