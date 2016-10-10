@@ -6,7 +6,7 @@ target 'NavigationFramework' do
   use_frameworks!
 
   # Pods for NavigationFramework
-  #pod 'SlideMenuControllerSwift'
+  pod 'SlideMenuControllerSwift'
   pod 'RxSwift'
 
   target 'NavigationFrameworkTests' do
