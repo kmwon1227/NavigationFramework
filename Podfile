@@ -6,7 +6,7 @@ target 'NavigationFramework' do
   use_frameworks!
 
   # Pods for NavigationFramework
-  pod 'SlideMenuControllerSwift'
+  #pod 'SlideMenuControllerSwift'
 
   target 'NavigationFrameworkTests' do
     inherit! :search_paths
