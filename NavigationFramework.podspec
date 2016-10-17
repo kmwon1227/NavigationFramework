@@ -140,16 +140,20 @@ Pod::Spec.new do |s|
    #s.dependency "Moya/RxSwift"
    #s.dependency "RxSwift"
    #s.dependency "RxCocoa"
-   #s.dependency "XLPagerTabStrip"
+   s.dependency "XLPagerTabStrip"
    #s.dependency "ObjectMapper", :git => "https://github.com/Hearst-DD/ObjectMapper.git"
    #s.dependency "SWRevealViewController"
   # s.dependency "SlideMenuControllerSwift"
+  s.dependency "ObjectMapper", "2.1.0"
 
   #s.subspec 'XLPagerTabStrip' do |pagerTabStrip|
     #pagerTabStrip.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/"' }
     #pagerTabStrip.source_files = 'XLPagerTabStrip/Sources/**/*.{h,m,swift}'
    #pagerTabStrip.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git" }
     #pagerTabStrip.source_files  = "Pods/XLPagerTabStrip/Sources/**/*"
+  #  pagerTabStrip.dependency "XLPagerTabStrip"
   #end
 
 end
+
+

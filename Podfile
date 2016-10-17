@@ -14,6 +14,7 @@ target 'NavigationFramework' do
 #  pod 'RxSwift', '3.0.0-beta.1'
 #  pod 'RxCocoa', '3.0.0-beta.1'
   pod 'XLPagerTabStrip'
+  pod 'ObjectMapper'
 
   target 'NavigationFrameworkTests' do
     inherit! :search_paths
