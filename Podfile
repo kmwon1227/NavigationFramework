@@ -8,11 +8,11 @@ target 'NavigationFramework' do
   use_frameworks!
 
   # Pods for NavigationFramework
-  pod 'SlideMenuControllerSwift'
-  pod 'Moya', '8.0.0-beta.2'
-  pod 'Moya/RxSwift'
-  pod 'RxSwift', '3.0.0-beta.1'
-  pod 'RxCocoa', '3.0.0-beta.1'
+#  pod 'SlideMenuControllerSwift'
+#  pod 'Moya', '8.0.0-beta.2'
+#  pod 'Moya/RxSwift'
+#  pod 'RxSwift', '3.0.0-beta.1'
+#  pod 'RxCocoa', '3.0.0-beta.1'
   pod 'XLPagerTabStrip'
 
   target 'NavigationFrameworkTests' do

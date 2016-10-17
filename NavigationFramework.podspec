@@ -120,6 +120,8 @@ Pod::Spec.new do |s|
   # s.framework  = "SlideMenuControllerSwift"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
+  # s.frameworks = 'UIKit', 'Foundation'
+
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -134,11 +136,20 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-   s.dependency "Moya", "8.0.0-beta.2"
-   s.dependency "Moya/RxSwift"
-   s.dependency "RxSwift", "3.0.0-beta.1"
-   s.dependency "RxCocoa", "3.0.0-beta.1"
-   s.dependency "XLPagerTabStrip"
+   #s.dependency "Moya"
+   #s.dependency "Moya/RxSwift"
+   #s.dependency "RxSwift"
+   #s.dependency "RxCocoa"
+   #s.dependency "XLPagerTabStrip"
+   #s.dependency "ObjectMapper", :git => "https://github.com/Hearst-DD/ObjectMapper.git"
+   #s.dependency "SWRevealViewController"
   # s.dependency "SlideMenuControllerSwift"
+
+  #s.subspec 'XLPagerTabStrip' do |pagerTabStrip|
+    #pagerTabStrip.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/"' }
+    #pagerTabStrip.source_files = 'XLPagerTabStrip/Sources/**/*.{h,m,swift}'
+   #pagerTabStrip.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git" }
+    #pagerTabStrip.source_files  = "Pods/XLPagerTabStrip/Sources/**/*"
+  #end
 
 end
